@@ -4,16 +4,24 @@
     <meta charset="utf-8">
     <title>WaterColor</title>
     <link rel="stylesheet" href="./css/canvas.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
     <script type="text/javascript" src="./lib/bundle.js"></script>
     <script type="text/javascript" src="./lib/jscolor.js"></script>
   </head>
   <body>
     <h1>Water Colors</h1>
-    <canvas id="canvas" width="600" height="400"></canvas>
-    <input id="color" class="jscolor" value="#000000"></input>
-    <input id="size" type="range" min="1000" max="100000" value="50000"></input>
-    <button id="clear">Clear</button>
-    <button id="pause">Pause</button>
-    <button id="resume">Resume</button>
+    <div class="content">
+      <div class="interface">
+        <label>Color</label>
+        <input id="color" class="jscolor" value="#000000"></input>
+        <label>Size</label>
+        <input id="size" type="range" min="1000" max="100000" value="50000"></input>
+        <button id="clear">Clear</button>
+        <button id="pause">Pause</button>
+        <button id="resume">Resume</button>
+      </div>
+      <canvas id="canvas" width="800" height="550"></canvas>
+    </div>
+    <h2>Click the canvas to drop colors.</h2>
   </body>
 </html>

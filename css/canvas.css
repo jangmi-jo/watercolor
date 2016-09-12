@@ -1,3 +1,68 @@
+body {
+  font-family: 'Philosopher', sans-serif;
+  background-image: url('../assets/background.jpg');
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
 #canvas {
   border: 2px solid black;
+  margin-right: : 10%;
+  margin-left: 20px;
+  display: inline;
+  background-color: white;
+}
+
+body h1{
+  text-align: center;
+  font-weight: bold;
+}
+
+body h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.interface {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.interface label {
+  margin: 5px;
+}
+
+.interface input {
+  margin: 5px 0;
+}
+
+.interface button {
+  font-family: 'Philosopher', sans-serif;
+  width: 100px;
+  margin: 5px auto;
+  display: block;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.2s;
+
+  border: solid 1px #3a2673;
+  background: #5739ac;
+  color: #FFF;
+}
+
+.interface button:hover {
+  background: #432d86;
+  border: solid 1px #3a2673;
+  text-decoration: none;
+  cursor: pointer;
+}
+.interface button:focus {
+  outline: none;
 }
