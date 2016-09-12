@@ -13,7 +13,9 @@ body {
   margin-right: : 10%;
   margin-left: 20px;
   display: inline;
-  background-color: white;
+  background-image: url('../assets/paper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body h1{
