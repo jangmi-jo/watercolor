@@ -36,7 +36,7 @@ In addition to the webpack entry file, there will be three scripts involved in t
 
 `watercolor.js`: this script will handle the logic for creating new path generator and rendering it to the DOM.
 
-`path_generator.js`: this script will handle the logic for creating canvas and passing information to the breath first object when user clicks.
+`path_generator.js`: this script will handle the logic for creating canvas, passing information to the breath first object, and event handling.
 
 `breath_first.js`: this script will handle the logic for generating the cells and fill the color on them.
 
