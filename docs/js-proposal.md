@@ -12,6 +12,7 @@ With this Water Color simulator, users will be able to:
 - [ ] Pick a color
 - [ ] Click on the canvas
 - [ ] See the effect
+- [ ] Clear, pause, resume effect
 
 In addition, this project will include:
 
@@ -39,6 +40,10 @@ In addition to the webpack entry file, there will be three scripts involved in t
 
 `breath_first.js`: this script will handle the logic for generating the cells and fill the color on them.
 
+`jscolor.js`: this script is the js-color picker from http://jscolor.com.
+
+
+
 ### Implementation Timeline
 
 **Day 1**: Get the canvas showing and handle click.
@@ -51,6 +56,8 @@ In addition to the webpack entry file, there will be three scripts involved in t
 
 ### Bonus features
 
-- [ ] Add options for different algorithm.
 - [ ] Multiple click handling.
+- [ ] Example picture starting when user enters.
 - [ ] Speed handling.
+- [ ] Size handling.
+- [ ] Add options for different algorithm.
