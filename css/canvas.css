@@ -9,15 +9,11 @@ body {
   flex-direction: row;
 }
 
-.mode {
-  display: flex;
-  flex-direction: row;
-  margin: 10px auto;
-}
-
-.mode img {
+.interface img {
   width: 50px;
   height: 50px;
+  margin: 5px auto;
+  cursor: pointer;
 }
 
 #canvas {
@@ -29,16 +25,12 @@ body {
   /*background-image: url('http://res.cloudinary.com/wkdal720/image/upload/v1473787062/paper_r09ybm.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: crosshair;
 }
 
 body h1{
   text-align: center;
   font-weight: bold;
-}
-
-body h2 {
-  text-align: center;
-  font-weight: normal;
 }
 
 .interface {
@@ -48,7 +40,8 @@ body h2 {
 }
 
 .interface label {
-  margin: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .interface input {
@@ -80,4 +73,53 @@ body h2 {
 }
 .interface button:focus {
   outline: none;
+}
+
+#color {
+  width: 50px;
+  margin: 5px auto;
+  cursor: pointer;
+}
+
+#size {
+  width: 100px;
+  margin: 5px auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }

@@ -12,22 +12,16 @@
     <h1>Water Colors</h1>
     <div class="content">
       <div class="interface">
-        <div class="mode">
-          <img id="brush" src="./assets/brush.png"/>
-          <img id="water" src="./assets/water.png"/>
-          <!-- <img src="http://res.cloudinary.com/wkdal720/image/upload/v1473786825/brush_hmunvb.png"/>
-          <img src="http://res.cloudinary.com/wkdal720/image/upload/v1473786828/water_qnvczd.png"/> -->
-        </div>
+        <label>Mode</label>
+        <img id="mode_img" class="hvr-pop" src="./assets/water.png"/>
+        <!-- <img src="http://res.cloudinary.com/wkdal720/image/upload/v1473786828/water_qnvczd.png"/> -->
         <label>Color</label>
         <input id="color" class="jscolor" value="#000000"></input>
         <label>Size</label>
         <input id="size" type="range" min="100" max="1000" value="300"></input>
         <button id="clear">Clear</button>
-        <button id="pause">Pause</button>
-        <button id="resume">Resume</button>
       </div>
-      <canvas id="canvas" width="800" height="550"></canvas>
+      <canvas id="canvas" width="1000" height="550"></canvas>
     </div>
-    <h2>Click the canvas to drop colors.</h2>
   </body>
 </html>
