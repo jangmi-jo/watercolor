@@ -1,11 +1,23 @@
 body {
   font-family: 'Philosopher', sans-serif;
   background-image: url('../assets/background.jpg');
+  /*background-image: url('http://res.cloudinary.com/wkdal720/image/upload/v1473787063/background_luxjr5.jpg')*/
 }
 
 .content {
   display: flex;
   flex-direction: row;
+}
+
+.mode {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+}
+
+.mode img {
+  width: 50px;
+  height: 50px;
 }
 
 #canvas {
@@ -14,6 +26,7 @@ body {
   margin-left: 20px;
   display: inline;
   background-image: url('../assets/paper.jpg');
+  /*background-image: url('http://res.cloudinary.com/wkdal720/image/upload/v1473787062/paper_r09ybm.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
 }
