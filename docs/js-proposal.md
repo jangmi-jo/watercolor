@@ -3,7 +3,7 @@
 ### Background
 
 Water Color is a canvas that user can click on and shows the water color dying effect from the clicked spot.
-It uses breath-first algorithm to pick the next pixel.
+It uses breadth-first algorithm to pick the next pixel.
 
 ### Functionality & MVP  
 
@@ -36,9 +36,9 @@ In addition to the webpack entry file, there will be three scripts involved in t
 
 `watercolor.js`: this script will handle the logic for creating new path generator and rendering it to the DOM.
 
-`path_generator.js`: this script will handle the logic for creating canvas, passing information to the breath first object, and event handling.
+`path_generator.js`: this script will handle the logic for creating canvas, passing information to the breadth first object, and event handling.
 
-`breath_first.js`: this script will handle the logic for generating the cells and fill the color on them.
+`breadth_first.js`: this script will handle the logic for generating the cells and fill the color on them.
 
 `jscolor.js`: this script is the js-color picker from http://jscolor.com.
 
