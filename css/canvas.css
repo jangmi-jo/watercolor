@@ -1,8 +1,7 @@
 body {
   font-family: 'Philosopher', sans-serif;
-  background-image: url('../assets/background.jpg');
   background-repeat: no-repeat;
-  /*background-image: url('http://res.cloudinary.com/wkdal720/image/upload/v1473787063/background_luxjr5.jpg')*/
+  background-image: url('http://res.cloudinary.com/wkdal720/image/upload/v1473787063/background_luxjr5.jpg')
 }
 
 .content {
@@ -11,19 +10,16 @@ body {
 }
 
 .interface img {
-  width: 50px;
-  height: 50px;
   cursor: pointer;
+  width: 40px;
+  height: 40px;
 }
 
 #canvas {
-  border: 2px solid black;
   margin-right: : 10%;
   margin-left: 20px;
   display: inline;
   background-color: white;
-  /*background-image: url('../assets/2.jpg');*/
-  /*background-image: url('http://res.cloudinary.com/wkdal720/image/upload/v1473787062/paper_r09ybm.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
   cursor: crosshair;
@@ -124,8 +120,8 @@ body h1{
 }
 
 .options > * {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   align-self: center;
   margin: 5px;
 }
