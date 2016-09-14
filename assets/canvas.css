@@ -131,6 +131,11 @@ body h1{
   cursor: pointer;
 }
 
+#night {
+  background-color: black;
+  cursor: pointer;
+}
+
 section {
   display: flex;
   flex-direction: column;
