@@ -12,16 +12,36 @@
     <h1>Water Colors</h1>
     <div class="content">
       <div class="interface">
-        <label>Mode</label>
-        <img id="mode_img" class="hvr-pop" src="./assets/water.png"/>
-        <!-- <img src="http://res.cloudinary.com/wkdal720/image/upload/v1473786828/water_qnvczd.png"/> -->
-        <label>Color</label>
-        <input id="color" class="jscolor" value="#000000"></input>
-        <label>Size</label>
-        <input id="size" type="range" min="100" max="1000" value="300"></input>
+        <section>
+          <label>Mode</label>
+          <img id="mode_img" class="hvr-pop" src="./assets/water.png"/>
+          <!-- <img src="http://res.cloudinary.com/wkdal720/image/upload/v1473786828/water_qnvczd.png"/> -->
+        </section>
+
+        <section>
+          <label>Color</label>
+          <input id="color" class="jscolor" value="#000000"></input>
+        </section>
+
+        <section>
+          <label>Size</label>
+          <input id="size" type="range" min="100" max="1000" value="300"></input>
+        </section>
+
+        <section>
+          <label>Background</label>
+          <div class='options'>
+            <img src="./assets/1.jpg"/>
+            <img src="./assets/2.jpg"/>
+            <img src="./assets/3.jpg"/>
+            <img src="./assets/4.jpg"/>
+            <div id="default"></div>
+          </div>
+        </section>
+
         <button id="clear">Clear</button>
       </div>
-      <canvas id="canvas" width="1000" height="550"></canvas>
+      <canvas id="canvas" width="1100" height="550"></canvas>
     </div>
   </body>
 </html>

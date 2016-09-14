@@ -1,6 +1,7 @@
 body {
   font-family: 'Philosopher', sans-serif;
   background-image: url('../assets/background.jpg');
+  background-repeat: no-repeat;
   /*background-image: url('http://res.cloudinary.com/wkdal720/image/upload/v1473787063/background_luxjr5.jpg')*/
 }
 
@@ -12,7 +13,6 @@ body {
 .interface img {
   width: 50px;
   height: 50px;
-  margin: 5px auto;
   cursor: pointer;
 }
 
@@ -21,7 +21,8 @@ body {
   margin-right: : 10%;
   margin-left: 20px;
   display: inline;
-  background-image: url('../assets/paper.jpg');
+  background-color: white;
+  /*background-image: url('../assets/2.jpg');*/
   /*background-image: url('http://res.cloudinary.com/wkdal720/image/upload/v1473787062/paper_r09ybm.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,16 +37,11 @@ body h1{
 .interface {
   display: inline-flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .interface label {
   margin: 0 auto;
-  margin-top: 20px;
-}
-
-.interface input {
-  margin: 5px 0;
 }
 
 .interface button {
@@ -53,7 +49,7 @@ body h1{
   width: 100px;
   margin: 5px auto;
   display: block;
-  font-size: 15px;
+  font-size: 20px;
   padding: 5px 10px;
   border-radius: 4px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
@@ -71,20 +67,18 @@ body h1{
   text-decoration: none;
   cursor: pointer;
 }
+
 .interface button:focus {
   outline: none;
 }
 
 #color {
   width: 50px;
-  margin: 5px auto;
   cursor: pointer;
 }
 
 #size {
   width: 100px;
-  margin: 5px auto;
-  margin-bottom: 20px;
   cursor: pointer;
 }
 
@@ -122,4 +116,32 @@ body h1{
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+}
+
+.options {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.options > * {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin: 5px;
+}
+
+#default {
+  background-color: white;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.interface section label {
+  margin-bottom: 5px;
 }
