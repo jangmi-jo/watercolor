@@ -1,6 +1,6 @@
 # WaterColor
 
-[WaterColor live][evdel720.github.io/watercolor]
+[WaterColor live][https://evdel720.github.io/watercolor]
 
   WaterColor is a front-end web application. It is implemented with vanilla JavaScript and HTML Canvas and CSS, JavaScript Color Picker library for getting user's color input.
 
@@ -14,6 +14,12 @@
   In brush mode, the mouse click/drag makes a dot/line on the spot it pointed.
 
 ## Features & Implementation
+
+### Custom Splash Effect
+  ![alt tag](http://res.cloudinary.com/wkdal720/image/upload/v1473897637/splash_cifrdc.jpg)
+
+  To demonstrate how to use the app, I implemented preloaded example splash page which shows the water color effect in real time.
+  For getting the mouse move input, make temporary recorded points array property and kept it in separate file.
 
 ### Custom Color Gradation
   To develop color gradation effect, I get the RGB from the selected color and the size desired. Then calculate the each r, g, b number's gap that has to be added each distance. The last color of any gradation will be white which is [255, 255, 255].
