@@ -16,11 +16,9 @@
 ## Features & Implementation
 
 ### Custom Splash Effect
-  ![alt tag](http://res.cloudinary.com/wkdal720/image/upload/v1473897637/splash_cifrdc.jpg)
+  ![alt tag](http://res.cloudinary.com/wkdal720/image/upload/v1473966294/watercolor1_ylosue.gif)
 
-  To demonstrate how to use the app, I implemented preloaded example splash page which shows the water color effect in real time.
-  For getting the mouse move input, I made a temporary recorded points array property.
-  Then I drew the splash page on the canvas and kept the mouse point records in separate file.
+  To demonstrate how to use the app, I implemented a preloaded example splash page which shows the water color effect in real time.
 
 ### Custom Color Gradation
   To develop color gradation effect, I get the RGB from the selected color and the size desired, then calculate the gap that has to be added to each of the r, g, b values. The last color of any gradation will be white which is [255, 255, 255].
@@ -31,7 +29,7 @@
       return (255 - c) / this.size;
     }
   ```
-  Then each one pixel process, I add the gap gradually to the current color.
+  For each pixel, I add the gap gradually to the current color.
   ```JavaScript
     this.color = this.color.map((c, i) => c + this.colorGap[i]);
   ```
