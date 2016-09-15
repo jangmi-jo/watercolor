@@ -16,7 +16,7 @@
 ## Features & Implementation
 
 ### Custom Splash Effect
-  ![alt tag](http://res.cloudinary.com/wkdal720/image/upload/v1473966294/watercolor1_ylosue.gif)
+  ![alt tag](https://res.cloudinary.com/wkdal720/image/upload/v1473966294/watercolor1_ylosue.gif)
 
   To demonstrate how to use the app, I implemented a preloaded example splash page which shows the water color effect in real time.
 
