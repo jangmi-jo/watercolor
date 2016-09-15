@@ -19,7 +19,8 @@
   ![alt tag](http://res.cloudinary.com/wkdal720/image/upload/v1473897637/splash_cifrdc.jpg)
 
   To demonstrate how to use the app, I implemented preloaded example splash page which shows the water color effect in real time.
-  For getting the mouse move input, I made a temporary recorded points array property and kept it in separate file.
+  For getting the mouse move input, I made a temporary recorded points array property.
+  Then I drew the splash page on the canvas and kept the mouse point records in separate file.
 
 ### Custom Color Gradation
   To develop color gradation effect, I get the RGB from the selected color and the size desired, then calculate the gap that has to be added to each of the r, g, b values. The last color of any gradation will be white which is [255, 255, 255].
@@ -38,7 +39,7 @@
 
 ### Breadth-First algorithm
   To generate a water color effect, I used a Breadth-First algorithm. When users click/drag a certain pixel, it starts from that pixel and stores its neighbors in its next possible pixel segments. It picks the next pixel randomly from those segments. To make a natural water color effect, it colors the spot with gradient color and stores its neighbors in segments.
-  To optimize this process, I kept one object for the pixels in canvas, with index as a key and boolean as value.
+  To optimize this process, I kept one object for all the pixels in canvas, with integer index as a key and boolean as value.
 
 ### Mode changing
   Changing the mode of the app, I kept a mode property. To prevent redundant event listeners, I made three main event listeners on canvas and gave them different behaviors depending on the mode.
