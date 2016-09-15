@@ -159,3 +159,10 @@ body img {
   margin: auto 10px;
   cursor: pointer;
 }
+
+
+@media all and (max-width: 700px) {
+  .links {
+    display: none;
+  }
+}
