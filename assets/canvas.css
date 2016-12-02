@@ -4,6 +4,10 @@ body {
   background-image: url('https://res.cloudinary.com/wkdal720/image/upload/v1473787063/watercolor/background_luxjr5.jpg')
 }
 
+#background {
+  display: none;
+}
+
 .content {
   display: flex;
   flex-direction: row;
@@ -11,8 +15,8 @@ body {
 
 .interface img {
   cursor: pointer;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 #canvas {
