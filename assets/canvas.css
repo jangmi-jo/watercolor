@@ -170,3 +170,7 @@ body img {
     display: none;
   }
 }
+
+a {
+  text-decoration: none;
+}
