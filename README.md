@@ -16,7 +16,7 @@
 ## Features & Implementation
 
 ### Custom Splash Effect
-  ![watercolor_gif](http://res.cloudinary.com/wkdal720/image/upload/v1473966294/watercolor/watercolor1_ylosue.gif)
+  ![watercolor_gif](https://res.cloudinary.com/wkdal720/image/upload/v1479779953/imageedit_6_4672038611_shbvrs.gif)
 
   To demonstrate how to use the app, I implemented a preloaded example splash page which shows the water color effect in real time.
 
@@ -42,6 +42,9 @@
 ### Mode changing
   Changing the mode of the app, I kept a mode property. To prevent redundant event listeners, I made three main event listeners on canvas and gave them different behaviors depending on the mode.
 
+### Download picture
+  To save the file in local storage, I converted the canvas to png data and set the data url as a href to the download link at the client side. 
+
 ## Future Directions for the Project
 
 ### Undo feature
@@ -49,6 +52,3 @@
 
 ### Color merging
   When user put another color on top of other water color effect, it merges the original color and the new color like real colors.
-
-### Save feature
-  User can save the canvas to their hard drive.
