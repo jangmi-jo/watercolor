@@ -1,6 +1,6 @@
 module.exports = {
   context: __dirname,
-  entry: "./lib/watercolor.js",
+  entry: ['babel-polyfill', "./lib/view.js"],
   output: {
     path: "./lib",
     publicPath: "/lib/",
