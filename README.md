@@ -43,7 +43,7 @@
   Changing the mode of the app, I kept a mode property. To prevent redundant event listeners, I made three main event listeners on canvas and gave them different behaviors depending on the mode.
 
 ### Download picture
-  To save the file in local storage, I converted the canvas to png data and set the data url as a href to the download link at the client side. 
+  To save the file in local storage, I converted the canvas to png data and set the data url as a href to the download link at the client side.
 
 ## Future Directions for the Project
 
@@ -52,3 +52,6 @@
 
 ### Color merging
   When user put another color on top of other water color effect, it merges the original color and the new color like real colors.
+
+### Various background colors and user input pictures
+  Instead of set background, let users pick their own background.
