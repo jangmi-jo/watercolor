@@ -49,11 +49,11 @@
 
 ## Future Directions for the Project
 
+### UI fixes
+  Avoid the window alerts and make the background as css when user presses save, combine the background image and the canvas picture and save. So user can change the background freely. Get rid of the night mode and give variety of backgrounds. Make that as dropdown.
+
 ### Undo feature
   User can undo what they did last with undo button.
 
 ### Color merging
   When user put another color on top of other water color effect, it merges the original color and the new color like real colors.
-
-### Various background colors and user input pictures
-  Instead of set background, let users pick their own background.

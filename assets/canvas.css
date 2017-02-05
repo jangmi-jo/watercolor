@@ -72,9 +72,10 @@ body h1{
   outline: none;
 }
 
-#color {
-  width: 50px;
+#color, #b-color {
+  width: 30px;
   cursor: pointer;
+  align-self: center;
 }
 
 #size {
@@ -173,4 +174,14 @@ body img {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  margin-top: 10px;
+}
+
+.jscolor {
+  color: transparent !important;
 }
