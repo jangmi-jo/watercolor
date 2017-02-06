@@ -24,9 +24,7 @@
   To develop the color gradation effect, I got the RGB from the selected color and the size desired, then calculated the gap that has to be added to each of the r, g, b values. The last color of any gradation will be white which is [255, 255, 255]. (When it is night mode, it goes toward [0, 0, 0])
 
   ```JavaScript
-    this.colorGap = this.color.map(c => {
-      return this.night ? -c / this.size : (255 - c) / this.size;
-    });
+    this.colorGap = this.color.map(c => (255 - c) / this.size);
   ```
 
   For each pixel, I added the gap gradually to the current color.
