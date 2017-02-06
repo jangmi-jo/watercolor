@@ -57,6 +57,10 @@ body h1{
   color: #FFF;
 }
 
+a {
+  margin-bottom: 20px;
+}
+
 .interface button:hover {
   background: #432d86;
   border: solid 1px #3a2673;
@@ -68,7 +72,7 @@ body h1{
   outline: none;
 }
 
-#color, #b-color {
+#color {
   width: 30px;
   cursor: pointer;
   align-self: center;
@@ -115,9 +119,22 @@ body h1{
   animation-iteration-count: 1;
 }
 
+#background {
+  height: 20px;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+#background:hover {
+  height: auto;
+}
+
 .options {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  background-color: rgba(100, 100, 100, 0.2);
+  border-radius: 10px;
+  padding: 10px 0;
 }
 
 .options > * {
