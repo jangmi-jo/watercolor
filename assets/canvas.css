@@ -119,13 +119,13 @@ a {
   animation-iteration-count: 1;
 }
 
-#background {
+#texture {
   height: 20px;
   overflow-y: hidden;
   margin: 0;
 }
 
-#background:hover {
+#texture:hover {
   height: auto;
 }
 
@@ -186,4 +186,12 @@ footer {
 
 .jscolor {
   color: transparent !important;
+}
+
+#background {
+  display: none;
+}
+
+#save_canvas {
+  display: none;
 }
