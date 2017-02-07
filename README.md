@@ -16,7 +16,7 @@
 ## Features & Implementation
 
 ### Custom Splash Effect
-  ![watercolor_gif](https://res.cloudinary.com/wkdal720/image/upload/v1479779953/imageedit_6_4672038611_shbvrs.gif)
+  ![watercolor_gif](https://res.cloudinary.com/wkdal720/image/upload/v1486503900/imageedit_3_6047389514_etwqcq.gif)
 
   To demonstrate how to use the app, I implemented a preloaded example splash page which shows the water color effect in real time. I recorded my mouse moves and triggered mouse drag event on the points. To setup the example, I utilized a JavaScript Generator function to get the points for the interval.
 
