@@ -43,12 +43,9 @@
   Changing the mode of the app, I kept a mode property. To prevent redundant event listeners, I made three main event listeners on canvas and gave them different behaviors depending on the mode.
 
 ### Download picture
-  To save the file in local storage, I converted the canvas to png data and set the data url as a href to the download link at the client side.
+  To save the file in local computer, I converted the canvas to png data and set the data url as a href to the download link at the client side.
 
 ## Future Directions for the Project
-
-### UI fixes
-  Avoid the window alerts and make the background as css when user presses save, combine the background image and the canvas picture and save. So user can change the background freely. Get rid of the night mode and give variety of backgrounds. Make that as dropdown.
 
 ### Undo feature
   User can undo what they did last with undo button.
