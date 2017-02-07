@@ -22,8 +22,13 @@ body {
 
 .links {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 2vw;
+  top: 3vh;
+}
+
+.links a img, .links a {
+  width: 30px;
+  height: 30px;
 }
 
 @media all and (max-width: 700px) {
