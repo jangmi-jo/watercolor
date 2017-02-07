@@ -16,10 +16,9 @@ body {
 }
 
 #canvas {
-  margin-right: : 10%;
   margin-left: 20px;
   display: inline;
-  background-image: url("https://res.cloudinary.com/wkdal720/image/upload/v1473858517/watercolor/1_dkzdfo.jpg");
+  background-image: url("https://res.cloudinary.com/wkdal720/image/upload/v1486435382/ivory-off-white-paper-texture_ih08wh.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   cursor: crosshair;
@@ -58,7 +57,7 @@ body h1{
 }
 
 a {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .interface button:hover {
@@ -134,7 +133,7 @@ a {
   flex-direction: column;
   background-color: rgba(100, 100, 100, 0.2);
   border-radius: 10px;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .options > * {
