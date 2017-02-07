@@ -4,38 +4,34 @@
     <meta charset="utf-8">
     <title>WaterColor</title>
     <link rel="stylesheet" href="./assets/canvas.css">
+    <link rel="stylesheet" href="./assets/interface.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
     <script type="text/javascript" src="./lib/bundle.js"></script>
     <script type="text/javascript" src="./lib/jscolor.js"></script>
   </head>
   <body>
-    <img id="background" crossOrigin="Anonymous" src="https://res.cloudinary.com/wkdal720/image/upload/v1486435382/ivory-off-white-paper-texture_ih08wh.jpg"/>
-    <canvas id="save_canvas"></canvas>
-    <h1>Water Colors</h1>
-    <div class="links">
+    <!-- <div class="links">
       <a href="mailto:wkdal720@gmail.com"><img src="https://res.cloudinary.com/wkdal720/image/upload/v1480010543/imageedit_1_8581378638_iucmmv.png"/></a>
       <a href="https://www.linkedin.com/in/jangmi-jo"><img src="https://res.cloudinary.com/wkdal720/image/upload/v1473910851/watercolor/linkedin_lbczye.png"/></a>
       <a href="https://github.com/evdel720"><img src="https://res.cloudinary.com/wkdal720/image/upload/v1473910794/watercolor/github_c54tsu.png"/></a>
       <a href="https://evdel720.github.io/portfolio/"><img src="https://res.cloudinary.com/wkdal720/image/upload/v1473954667/watercolor/imageedit_1_8723619617_gi5qh4.png"/></a>
-    </div>
+    </div> -->
     <div class="content">
       <div class="interface">
         <section>
-          <label>Mode</label>
-          <img id="mode_img" class="hvr-pop" src="https://res.cloudinary.com/wkdal720/image/upload/v1473786828/watercolor/water_qnvczd.png"/>
+          <img id="clear" src="https://res.cloudinary.com/wkdal720/image/upload/v1473204036/remove-icon-png-32_zonmih.png"/>
+          <a id="save" href="#" download><img src="https://res.cloudinary.com/wkdal720/image/upload/v1486492283/512px-Download_alt_font_awesome.svg_qmw5ne.png"/></a>
         </section>
 
         <section>
-          <label>Color</label>
+          <img id="water" class="selected" src="https://res.cloudinary.com/wkdal720/image/upload/v1473786828/watercolor/water_qnvczd.png"/>
+          <img id="brush" src="https://res.cloudinary.com/wkdal720/image/upload/v1473786825/watercolor/brush_hmunvb.png"/>
           <input id="color" class="jscolor" value="#960000"></input>
         </section>
 
         <section>
-          <label>Size</label>
           <input id="size" type="range" min="100" max="1000" value="300"></input>
         </section>
-        <button id="clear">Clear</button>
-        <a id="save" href="#" download><button>Save</button></a>
 
         <section id='texture'>
           <label>Texture ▼</label>
@@ -49,9 +45,10 @@
             <img src="https://res.cloudinary.com/wkdal720/image/upload/v1486435385/clean-white-paper-texture-1_qqphg1.jpg"/>
           </div>
         </section>
-
       </div>
       <canvas id="canvas"></canvas>
+      <canvas id="save_canvas"></canvas>
+      <img id="background" crossOrigin="Anonymous" src="https://res.cloudinary.com/wkdal720/image/upload/v1486435382/ivory-off-white-paper-texture_ih08wh.jpg"/>
     </div>
     <footer>Copyright © 2016 Jangmi Jo. All rights reserved.</footer>
   </body>

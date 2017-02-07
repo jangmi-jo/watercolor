@@ -1,0 +1,89 @@
+.interface img, a {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.interface {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.interface label {
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+#color {
+  width: 20px;
+  cursor: pointer;
+  align-self: center;
+}
+
+#size {
+  width: 100px;
+  cursor: pointer;
+}
+
+#texture {
+  height: 20px;
+  overflow-y: hidden;
+  margin: 0;
+  flex-direction: column;
+}
+
+#texture:hover {
+  height: auto;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(100, 100, 100, 0.2);
+  border-radius: 10px;
+  padding: 5px 0;
+}
+
+.options > img {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  margin: 5px;
+
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.interface section label {
+  margin-bottom: 5px;
+}
+
+.jscolor {
+  color: transparent !important;
+}
+
+#clear:hover, #save:hover {
+  background: rgba(100, 100, 100, 0.2);
+  border-radius: 5px;
+}
+
+#clear {
+  display: inline;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.selected {
+  background: rgba(100, 100, 100, 0.2);
+  border-radius: 5px;
+}
