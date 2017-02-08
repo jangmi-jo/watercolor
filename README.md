@@ -48,8 +48,8 @@
 ### Texture change
   To enable texture changing without clear the canvas, I kept hidden canvas on document and when user clicks save button, draw the selected texture on the hidden canvas and go through the cells and copy each filled cell's image data from the original canvas. By doing this, user can keep their art and try different textures.
 
-### Browser responsiveness
-  I'm working on cross browser responsiveness. So far, WaterColor works in Chrome, Safari and Firefox. 
+### Cross browser support
+  WaterColor works in Chrome, Safari, IE, Edge, Opera and Firefox. All features work except download feature in IE and Edge. In IE and Edge, app doesn't show the save option to reduce the confusion.
 
 ## Future Directions for the Project
 

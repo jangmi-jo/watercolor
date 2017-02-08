@@ -17,8 +17,13 @@ body {
 
 .links {
   position: absolute;
-  right: 2vw;
+  right: 3vw;
   top: 3vh;
+}
+
+.links img:hover {
+  background: rgba(0, 0, 255, 0.2);
+  border-radius: 50%;
 }
 
 .links a img, .links a {

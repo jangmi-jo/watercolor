@@ -80,7 +80,7 @@ section {
   color: transparent !important;
 }
 
-#clear:hover, #save:hover, #water:hover, #brush:hover {
+#clear:hover, #save:hover, #water:hover, #brush:hover, #eraser:hover {
   background: rgba(0, 0, 255, 0.2);
   border-radius: 5px;
 }
