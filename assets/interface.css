@@ -10,6 +10,7 @@
   flex-direction: row;
   margin-left: 5vw;
   align-self: flex-start;
+  align-items: center;
   height: 5vh;
   padding-bottom: 1vh;
 }
