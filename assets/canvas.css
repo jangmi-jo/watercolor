@@ -7,12 +7,6 @@ body {
   margin: 0;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #canvas {
   display: inline;
   background-image: url("https://res.cloudinary.com/wkdal720/image/upload/v1486435382/ivory-off-white-paper-texture_ih08wh.jpg");
