@@ -37,7 +37,6 @@
   To generate a water color effect, I used a Breadth-First algorithm. When users click/drag a certain pixel, it starts from that pixel and stores its neighbors in its next possible (in bounds, not colored, not in segments already) pixel segments. It picks the next pixel randomly from those segments.
   I implemented a new data structure, Store, for the random segments to make this algorithm faster. I used two Maps to keep the index and value (to resemble the Array) and when I want to pop a random segment from it, it chooses a random index, pops it, and updates the two maps to make all the index and value map to each other as it was before. With this store, insert/popRandom/has functions all run in O(1) time so the total process gets significantly faster. (Before this, it had to check if this segment is already in candidates or not so it took for each time, O(n))
   To make a natural water color effect, it colors the spot with gradient color and insert its neighbors in segments.
-  To optimize this process, I kept one array of booleans for all the pixels in the canvas.
 
 ### Mode changing
   Changing the mode of the app, I kept a mode property. To prevent redundant event listeners, I made three main event listeners on canvas and gave them different behaviors depending on the mode.
