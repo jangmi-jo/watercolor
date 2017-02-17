@@ -1,6 +1,6 @@
 # WaterColor
 
-[WaterColor live][https://evdel720.github.io/watercolor]
+[WaterColor live][https://jangmi-jo.github.io/watercolor/]
 
   WaterColor is a front-end web application. It is implemented with vanilla JavaScript, HTML Canvas, CSS, and the JavaScript Color Picker library for getting the user's color input.
 
