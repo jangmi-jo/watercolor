@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evdel720/watercolor.git"
+    "url": "git+https://github.com/jangmi-jo/watercolor.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/evdel720/watercolor/issues"
+    "url": "https://github.com/jangmi-jo/watercolor/issues"
   },
-  "homepage": "https://github.com/evdel720/watercolor#readme",
+  "homepage": "https://github.com/jangmi-jo/watercolor#readme",
   "dependencies": {
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",
